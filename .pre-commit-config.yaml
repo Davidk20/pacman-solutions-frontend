@@ -1,0 +1,32 @@
+repos:
+    # BACKEND JOBS
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+    -   id: check-added-large-files
+    -   id: check-merge-conflict
+    -   id: check-toml
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: name-tests-test
+    -   id: trailing-whitespace
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.56.0
+    hooks:
+    -   id: eslint
+        stages: [push]
+        files: \.[jt]sx?$
+        types: [file]
+-   repo: https://gitlab.com/bmares/check-json5
+    rev: v1.0.0
+    hooks:
+    - id: check-json5
+-   repo: local
+    hooks:
+    -   id: jest-test
+        stages: [push]
+        name: Test with Jest
+        description: Test the frontend application with Jest
+        files: \.[jt]sx?$
+        language: system
+        entry: bash -c 'cd solving-pacman-frontend && npm run test:once'
