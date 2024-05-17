@@ -7,7 +7,7 @@
  */
 const dev = {
   url: {
-    API_URL: "http://127.0.0.1:4000"
+    API_URL: "http://127.0.0.1:5001/"
   }
 };
 
@@ -16,8 +16,7 @@ const dev = {
 */
 const prod = {
   url: {
-    // TODO change when deployed to a remote server.
-    API_URL: "http://127.0.0.1:4000"
+    API_URL: "https://us-central1-pac-man-solutions.cloudfunctions.net/"
   }
 };
 
