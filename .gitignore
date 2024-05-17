@@ -26,3 +26,7 @@ yarn-error.log*
 # General
 .vscode/
 .DS_Store
+
+# Firebase
+.firebaserc
+firebase.json
