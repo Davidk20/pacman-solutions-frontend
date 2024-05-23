@@ -169,7 +169,7 @@ export function GameWindow(stateStore: GameState[]) {
   return (
     <div
       className="
-        flex items-center justify-center relative h-dvh w-dvw
+        flex items-center justify-center relative h-dvh w-dvw gap-x-10
       "
     >
       <div
