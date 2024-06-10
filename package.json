@@ -19,7 +19,7 @@
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.11",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^6.7.4",
+    "@typescript-eslint/parser": "^7.12.0",
     "autoprefixer": "^10.4.19",
     "ldrs": "^1.0.1",
     "postcss-cli": "^11.0.0",
